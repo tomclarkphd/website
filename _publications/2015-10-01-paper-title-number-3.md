@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 3"
+title: "Does Military Aid to Police Decrease Crime? Counterevidence from the Federal 1033 Program and Local Police Jurisdictions in the United States"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides3.pdf'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publication/2020-military-aid-police
+excerpt: 'Evaluates the effect of the federal 1033 program — which transfers surplus military equipment to local police — on crime rates, finding little evidence that it decreases crime.'
+date: 2020-01-01
+venue: 'Journal Article'
+citation: 'Clark, Tom S. (2020). &quot;Does Military Aid to Police Decrease Crime? Counterevidence from the Federal 1033 Program and Local Police Jurisdictions in the United States.&quot;'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This paper evaluates the effect of the federal 1033 program — which transfers surplus military equipment to local police departments — on crime rates. The findings provide counterevidence to the claim that military equipment transfers reduce crime.

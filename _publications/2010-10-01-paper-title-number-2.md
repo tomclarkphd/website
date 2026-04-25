@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 2"
+title: "Republican-Majority Appellate Panels Increase Execution Rates for Capital Defendants"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/2021-republican-majority-panels
+excerpt: 'Shows that the partisan composition of appellate panels has a significant effect on execution rates for capital defendants.'
+date: 2021-01-01
+venue: 'Journal of Politics'
+citation: 'Clark, Tom S. (2021). &quot;Republican-Majority Appellate Panels Increase Execution Rates for Capital Defendants.&quot; <i>Journal of Politics</i>, 83(3).'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This article demonstrates that the partisan composition of appellate panels has a significant effect on execution rates for capital defendants, published in the *Journal of Politics*, Vol. 83, No. 3.

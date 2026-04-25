@@ -11,54 +11,48 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D., Politics, Princeton University, 2008
+* M.A., Politics, Princeton University, 2005
+* B.A., Political Science, Rutgers University, 2003
 
-Work experience
+Academic Positions
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2025–present: Professor of Political Science, Stanford University
+  * Senior Fellow (by courtesy), Hoover Institution
+* 2024–2025: Professor of Political Science, University of Chicago
+* 2008–2024: Faculty, Emory University (Department of Political Science)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Editorial Roles
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Editor, *The Journal of Law & Courts* (current)
 
-Publications
+Books
+======
+* Clark, Tom S., Adam N. Glynn, and Michael Leo Owens. *Deadly Force: Police Shootings in Urban America*. Princeton University Press, 2025.
+* Clark, Tom S. *The Supreme Court: An Analytic History of Constitutional Decision Making*. Cambridge University Press. (Political Economy of Institutions and Decisions)
+* Clark, Tom S. *The Limits of Judicial Independence*. Cambridge University Press. (Political Economy of Institutions and Decisions)
+* Friedman, Barry, Tom S. Clark, Margaret Lemos, Andrew D. Martin, Anna Harvey, and Allison Larsen. *Judicial Decision Making*. West Academic, 2020.
+
+Journal Articles
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Awards and Honors
 ======
-* Currently signed in to 43 different slack teams
+* Joseph Bernd Award, best paper in the *Journal of Politics*, 2023
+* William H. Riker Award, best book on political economy, APSA, 2012
+* Best Journal Article Award, Law & Courts Section, APSA, 2013

@@ -6,31 +6,225 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+<div class="wordwrap" style="margin-bottom: 1.5em;">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+<style>
+  .pub-list { list-style: none; padding: 0; }
+  .pub-list li { margin-bottom: 1.4em; }
+  .pub-citation { margin: 0; font-size: 0.95em; line-height: 1.5; }
+  .pub-abstract { margin: 0.3em 0 0 0; font-size: 0.82em; color: #555; line-height: 1.5; }
+</style>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>Books</h2>
+<hr />
+<ul class="pub-list">
 
+  <li>
+    <p class="pub-citation">Clark, Tom S., Adam N. Glynn, and Michael Leo Owens. 2025. <a href="https://press.princeton.edu/books/hardcover/9780691260785/deadly-force"><em>Deadly Force: Police Shootings in American Cities</em></a>. Princeton University Press.</p>
+  </li>
 
+  <li>
+    <p class="pub-citation">Friedman, Barry, Margaret H. Lemos, Andrew D. Martin, Tom S. Clark, Alison O. Larsen, and Anna Harvey. 2020. <a href="https://www.amazon.com/Judicial-Decision-Making-Coursebook-Barry-Friedman/dp/1642422576/"><em>Judicial Decision-Making: A Coursebook</em></a>. West Academic.</p>
+  </li>
 
+  <li>
+    <p class="pub-citation">Clark, Tom S. 2019. <a href="https://www.amazon.com/Supreme-Court-Constitutional-Political-Institutions/dp/1108436935/"><em>The Supreme Court: An Analytic History of Constitutional Decision Making</em></a>. Cambridge University Press. Series in the Political Economy of Institutions and Decisions.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S. 2011. <a href="https://www.amazon.com/Judicial-Independence-Political-Institutions-Decisions/dp/0521135052/"><em>The Limits of Judicial Independence</em></a>. Cambridge University Press. Series in the Political Economy of Institutions and Decisions.</p>
+  </li>
+
+</ul>
+
+<h2>Articles</h2>
+<hr />
+<ul class="pub-list">
+
+  <li>
+    <p class="pub-citation">Clark, Tom S. <a href="/files/chargeStacking.pdf">"Stacking the Charges: Prosecutorial Discretion in Criminal Charging Decisions."</a> <em>American Journal of Political Science</em> (forthcoming).</p>
+    <p class="pub-abstract">Prosecutorial discretion is an inherent part of the legal system. Recent policy debates and political campaigns have focused on that discretion as a source of racial disparities in criminal justice. This paper evaluates the practice of charge-stacking, whereby prosecutors decide how many and which charges to file against a single criminal defendant. On the logic that prosecutors are more prone to file weaker additional charges against Black defendants, I apply an outcome test to assess the strength of those additional charges. Using data from the Cook County State Attorney's Office, I find that Black defendants are less likely than their White counterparts to be convicted on a given secondary charge and, conditional upon conviction, receive shorter prison sentences. I interpret this finding as evidence that prosecutors are willing to bring weaker cases against Black defendants than they are against White defendants.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">England, Sam, and Tom S. Clark. 2026. <a href="/files/Minority_Will_.pdf">"Minority Will? A Model of Influential Dissenting Opinions."</a> <em>Journal of Theoretical Politics</em> 38(1):56–84.</p>
+    <p class="pub-abstract">We study the incentives for writing dissenting opinions that try to shape the law. We model the interaction between a minority and majority in a collegial court setting. Dissenting judges calculate how much effort to put into a dissenting opinion with an expectation that their work can probabilistically affect how the law is applied in the future. That calculus can influence how a majority opinion author writes an opinion and the dynamics of collegial decision-making and coalition formation. We evaluate comparative statics about the content of opinions and the conditions under which dissenting opinions should emerge from collective choice.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S. 2024. <a href="/files/729933.pdf">"A Political-Economic Model of Police Administration."</a> <em>Journal of Politics</em> 86(4):1462–1478.</p>
+    <p class="pub-abstract">A primary challenge for the administration of public safety is the recruitment and retention of high-quality police officers. I develop a model of the administration of a police department to analyze the conditions under which the quality of policing and public support for the police move in tandem. The model accounts for patterns of under-resourced and under-performing police as well as over-resourced, well-performing police, and informs current debates about policing in the United States.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Schiff, Kaylyn, Tom S. Clark, Adam Glynn, Michael Leo Owens, Anna Gunderson, and Eric Dobbie. 2024. <a href="/files/SchiffEtAlJEPS2023.pdf">"Police Shootings Statistics and Public Support for Police Reforms."</a> <em>Journal of Experimental Political Science</em> 11(3):288–299.</p>
+    <p class="pub-abstract">We study the effects of informing the public about police shootings of civilians on support for police reform proposals. Using original data on all officer-involved shootings in 10 U.S. cities, we conducted a survey experiment randomizing respondents into treatment groups that received information about the actual reported number of police shootings in their city. We find that statistics on police shootings do not change individuals' policy preferences and that support for police reform is associated primarily with partisanship and race.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S., Elisha Cohen, Adam Glynn, Michael Leo Owens, Anna Gunderson, and Kaylyn Jackson. 2023. <a href="/files/ClarkEtAlJOP2023.pdf">"Are Police Racially Biased in the Decision to Shoot?"</a> <em>Journal of Politics</em> 85(3).</p>
+    <p class="pub-abstract">We present a theoretical model predicting that racially biased policing produces more use of potentially lethal force against Black civilians but lower fatality rates for Black civilians than White civilians. We empirically evaluate this with original officer-involved shooting data from 2010 to 2017 for eight local police jurisdictions, finding that Black fatality rates are significantly lower than White fatality rates. Using outcome test methodology, we estimate that at least 30% of Black civilians shot by police would not have been shot had they been White.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S., B. Pablo Montagnes, and Jörg L. Spenkuch. 2022. <a href="/files/scourt.pdf">"Politics from the Bench? Ideology and Strategic Voting in the US Supreme Court."</a> <em>Journal of Public Economics</em> 214:104726.</p>
+    <p class="pub-abstract">Supreme Court justices often vote along ideological lines. To study whether this reflects genuine legal interpretation or political preferences, we differentiate between pivotal and non-pivotal votes. We find that when a justice's choice determines the outcome of a case, ideology plays an even greater role in her decision. Our counterfactuals suggest that "politics from the bench" determines the outcome of approximately 8% of 5–4 splits.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Beim, Deborah, Tom S. Clark, and Benjamin E. Lauderdale. 2021. <a href="/files/BeimClarkLauderdaleJOP.pdf">"Republican-Majority Appellate Panels Increase Execution Rates for Capital Defendants."</a> <em>Journal of Politics</em> 83(2).</p>
+    <p class="pub-abstract">We use the quasi-random assignment of cases to three-judge panels on the US Courts of Appeals to assess consistency in adjudication of death penalty appeals. We find clear evidence that panels apply different standards depending on whether a majority was appointed by Democratic or Republican presidents, and that these effects persist to the end of adjudication. Since the early 1980s, the probability of ultimate execution has depended on the judges assigned to an inmate's first Court of Appeals case.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S., and John W. Patty. 2021. <a href="/files/Why_Are_Pandemics_Ideological_.pdf">"Why Are Pandemics Ideological?"</a> <em>Journal of Political Institutions and Political Economy</em> 2(1):103–141.</p>
+    <p class="pub-abstract">We examine two related elements of political polarization and how they shape politicians' incentives to invest in and support policy experts. We show that policy experts represent a political gamble for politicians whose ideological-policy objectives may be undermined by credible expert information — but that during a crisis, experts provide credible foundations for directing policy responses requiring public coordination and compliance. We show that partisan divergence creates related incentives for politicians negotiating their relationships with policy experts absent a crisis.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Cohen, Elisha, Anna Gunderson, Kaylyn Jackson, Tom S. Clark, Adam Glynn, and Michael Leo Owens. 2020. <a href="https://rdcu.be/cbOLw">"Does Military Aid to Police Decrease Crime? Counterevidence from the Federal 1033 Program and Local Police Jurisdictions in the United States."</a> <em>Nature: Human Behavior</em>.</p>
+    <p class="pub-abstract">Recent econometric studies imply that transfers of surplus military equipment via the 1033 Program reduce crime and yield other benefits for law enforcement. Leveraging newly-available data, we replicate and extend two of the most prominent of these studies. Our results challenge the validity of extant evidence that police militarization associated with the 1033 Program reduces crime and yields other social benefits at the local level.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Cohen, Elisha, Anna Gunderson, Kaylyn Jackson, Paul Zachary, Tom S. Clark, Adam Glynn, and Michael Leo Owens. 2019. <a href="/files/OIS_and_Contact-zzlc.pdf">"Do Officer-Involved Shootings Reduce Citizen Contact with Government?"</a> <em>Journal of Politics</em> 81(3).</p>
+    <p class="pub-abstract">We assess whether, conditional on an officer-involved shooting, a civilian's race predicts fatality, and employ a novel research design to estimate the causal effects of fatal shootings on civic behavior — specifically, citizen-initiated contact with local government via 911 and 311 calls in Los Angeles. We find no effect of officer-involved shootings on patterns of call behavior across a wide range of empirical specifications.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S., Benjamin Engst, and Jeffrey K. Staton. 2019. <a href="/files/4624email.pdf">"Estimating the Effect of Leisure on Judicial Performance."</a> <em>Journal of Legal Studies</em> 47(2):349–390.</p>
+    <p class="pub-abstract">Taking advantage of an annual sporting event that creates differential distractions across judges, we use a difference-in-differences design to show that when a judge's team participates in the NCAA Men's Basketball Tournament, the judge decides cases more slowly and those opinions are cited more negatively by subsequent decisions. These findings suggest that a lack of direct accountability has deleterious consequences for the material judicial product.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Canes-Wrone, Brandice, Tom S. Clark, and Amy Semet. 2018. <a href="/files/CanesWroneClarkSemet.pdf">"Judicial Elections, Public Opinion, and Decisions on Lower Salience Issues."</a> <em>Journal of Empirical Legal Studies</em> 15(4):672–707.</p>
+    <p class="pub-abstract">We examine how public opinion affects judicial decisions on less salient issues, collecting an original dataset of over 5,000 judicial votes on nearly 1,000 environmental law cases in 40 state supreme courts from 1990–2014. We find no significant overall effect of public opinion on judicial decisions, but in states where environmental issues have appeared in campaign attack ads, we find evidence of such a relationship in the years following the ads.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S., Jeffrey K. Staton, Yu Wang, and Eugene Agichtein. 2018. <a href="/files/CourtOMeterPaperv5-npsf.pdf">"Using Twitter to Study Public Discourse in the Wake of Judicial Decisions: Public Reactions to the Supreme Court's Same-Sex Marriage Cases."</a> <em>Journal of Law &amp; Courts</em> 6(1):93–216.</p>
+    <p class="pub-abstract">We present a framework for employing Twitter data to study mass opinion discourse, finding that the Supreme Court's same-sex marriage decisions in 2013 had significant effects on how the public discussed the issue and had a polarizing effect on mass opinion. We connect these findings to larger problems in the areas of democratic deliberation and big data analysis.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Beim, Deborah, Tom S. Clark, and John W. Patty. 2017. <a href="/files/SequentialAdjudication-FinalSubmit.pdf">"Why Do Courts Delay?"</a> <em>Journal of Law &amp; Courts</em> 5(2):199–241.</p>
+    <p class="pub-abstract">We offer a general theory of dispute resolution in dynamic settings — the dynamic resolution framework — and describe the impact of resolving disputes within such a setting on the incentives of a strategic adjudicator. We apply the theoretical results to the notion of justiciability, particularly ripeness in the US federal judiciary, and illustrate key dynamics with case studies of US Supreme Court doctrine.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Callander, Steven, and Tom S. Clark. 2017. <a href="/files/CallanderClarkAPSR2017.pdf">"Precedent and Doctrine in a Complicated World."</a> <em>American Political Science Review</em> 111(1):184–203.</p>
+    <p class="pub-abstract">We propose a model of judicial learning and rule-writing in which there is a complicated relationship between facts and legal outcomes, and judges are bound to resolve cases by analogizing from past precedents. The model has implications for the dynamics of common law development, the path-dependent nature of the law, and optimal case selection for rule-making.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Lauderdale, Benjamin, and Tom S. Clark. 2016. <a href="/files/LauderdaleClarkJOP2016.pdf">"Estimating Vote-Specific Preferences from Roll-Call Data using Conditional Autoregressive Priors."</a> <em>Journal of Politics</em> 78(4):1153–1169.</p>
+    <p class="pub-abstract">We demonstrate a new approach to Bayesian preference estimation that estimates case-specific preferences for justices using a conditional autoregressive model with citation counts determining the correlation between justices' preferences across cases. By using citations to identify the most relevant precedent cases, we can describe variation in revealed preferences across areas of the law and predict in advance of a decision how justices will align on a new case.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S. 2015. <a href="/files/ClarkJTP2015.pdf">"Scope and Precedent: Judicial Rule-Making Under Uncertainty."</a> <em>Journal of Theoretical Politics</em> 28(3):353–384.</p>
+    <p class="pub-abstract">This paper develops a formal model of Supreme Court opinion-writing under uncertainty, capturing how the Court optimally designs the specificity of its legal rules. Balancing the tradeoff between more precise rules controlling a smaller subset of cases versus less precise rules with wider applicability, the model yields insights about how the factual representativeness of a case affects optimal opinion-writing and the Court's willingness to hear new cases.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S., and Jeffrey K. Staton. 2015. <a href="/files/ClarkStatonJOP2015.pdf">"An Informational Model of Judicial Docket Styles."</a> <em>Journal of Politics</em> 77(3):589–607.</p>
+    <p class="pub-abstract">We develop an informational model of judicial docket style that isolates a tension between information acquisition and quality rule-writing, examining how that tension manifests in incentives concerning jurisdiction style. Dockets mixing law application and rule construction promote more informed judicial rule construction at the cost of lower quality rules and a greater role of the judiciary in day-to-day activity of the state.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S., and Drew A. Linzer. 2015. <a href="/files/ClarkLinzerPSRM2015.pdf">"Should I Use Fixed or Random Effects?"</a> <em>Political Science Research &amp; Methods</em> 3(2):399–408.</p>
+    <p class="pub-abstract">We employ a series of simulations to evaluate the commonly-used Hausman test and demonstrate that it is neither a necessary nor sufficient statistic for deciding between fixed and random effects. We use our simulations to evaluate the relative fit of fixed and random effects estimators under varying types of datasets and summarize the results into a typology of datasets to offer guidance to the applied empirical modeler.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S., and Jonathan P. Kastellec. 2015. <a href="/files/ClarkKastellecAPR2015.pdf">"Source Cue and Public Support for the Supreme Court."</a> <em>American Politics Research</em> 43(3):504–535.</p>
+    <p class="pub-abstract">Using a series of survey experiments, we find that elite cues (in the form of partisan source cues) significantly influence the public's support for judicial independence, and that the mere exposure to such cues — the politicization of the Court — can affect support for specific Court decisions. These results have important implications for understanding the extent to which politicians can shape public support for judicial independence.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S., Jeffrey R. Lax, and Douglas R. Rice. 2015. <a href="/files/ClarkLaxRiceJLC2015.pdf">"Measuring the Salience of Supreme Court Cases."</a> <em>Journal of Law &amp; Courts</em> 3(1):37–65.</p>
+    <p class="pub-abstract">We develop a measure of latent salience that relies on media coverage and has the potential to ameliorate concerns of causal inference, improving upon the dominant measure of New York Times coverage. The measure enables cleaner identification of treatment effects in research that invokes varying salience as an explanatory factor or as an outcome to be explained.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Canes-Wrone, Brandice, Tom S. Clark, and Jason P. Kelly. 2014. <a href="/files/CanesWroneClarkKellyAPSR2014.pdf">"Judicial Selection and Death Penalty Decisions."</a> <em>American Political Science Review</em> 108(1):23–29.</p>
+    <p class="pub-abstract">Using over 12,000 decisions on 2,000 capital punishment cases decided between 1980 and 2006, we find that judges face the greatest pressure to uphold capital sentences in systems with nonpartisan or retention elections, while judges respond similarly to public opinion in partisan election and reappointment systems. Judicial decisions reflect plebiscitary pressures only after interest groups have achieved success at unseating justices.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Lauderdale, Benjamin E., and Tom S. Clark. 2014. <a href="/files/LauderdaleClarkAJPS2014.pdf">"Scaling Politically Meaningful Dimensions Using Texts and Votes."</a> <em>American Journal of Political Science</em> 58(3):754–771.</p>
+    <p class="pub-abstract">We combine item response theory models for voting data with Latent Dirichlet Allocation for text into a new tool for discovering preference variation across issues. With an application to the US Supreme Court, the approach uses voting data augmented with opinion texts to discover variation in justices' preferences across different areas of the law.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S., and Jonathan P. Kastellec. 2013. <a href="/files/ClarkKastellecJOP2013-amm6.pdf">"The Supreme Court and Percolation in the Lower Courts: An Optimal Stopping Model."</a> <em>Journal of Politics</em> 75(1):150–168.</p>
+    <p class="pub-abstract">We model the Supreme Court's decision to intervene in an inter-circuit conflict as an optimal stopping problem. The Court faces a strategic trade-off between allowing conflict to continue while learning about the implications of possible policy choices and intervening to end a costly conflict between circuits. Our model provides the first theoretical framework for understanding when and how the Court decides to resolve inter-circuit conflict.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Lauderdale, Benjamin E., and Tom S. Clark. 2012. <a href="/files/LauderdaleClarkAPSR2012.pdf">"The Supreme Court's Many Median Justices."</a> <em>American Political Science Review</em> 106(4):847–866.</p>
+    <p class="pub-abstract">We introduce a new approach to recovering estimates of judicial preferences localized to particular legal issues and time periods. We find substantial variation in the identity of the median justice across areas of the law during most periods of the modern court, suggesting a need to reconsider empirical and theoretical research that hinges on the existence of a unitary and well-identified median justice.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Carrubba, Clifford J., and Tom S. Clark. 2012. <a href="/files/CarrubbaClarkAPSR2012.pdf">"Rule Creation in a Political Hierarchy."</a> <em>American Political Science Review</em> 106(3):622–643.</p>
+    <p class="pub-abstract">We model law creation in a judicial hierarchy characterized by principal-agent dilemmas, incorporating empirical observations of previous research and outlining a theoretical framework with testable predictions about the choices lower court judges make when creating law. The implications extend to other hierarchical rule-making structures beyond courts.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S., and Benjamin E. Lauderdale. 2012. <a href="/files/ClarkLauderdalePA2012.pdf">"The Genealogy of Law."</a> <em>Political Analysis</em> 20(3):329–350.</p>
+    <p class="pub-abstract">We develop a method for systematically connecting Supreme Court cases to identify the genealogy of Supreme Court doctrine, applying an original estimator to citation data. The model yields a "family tree" representation of cases incorporating the theoretical structure of judge-made law and enabling the construction of measures of legal significance and other relevant quantities based on axiomatic definitions.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S., and Clifford J. Carrubba. 2012. <a href="/files/ClarkCarrubbaJOP2012.pdf">"A Theory of Opinion Writing in a Judicial Hierarchy."</a> <em>Journal of Politics</em> 74(2):584–603.</p>
+    <p class="pub-abstract">We develop a model of opinion-writing in the judicial hierarchy using a case-space approach and exploiting informational asymmetries across levels of the hierarchy. The model yields new insights about strategic incentives created by the judicial hierarchy and derives empirical predictions demonstrating that common tests in the literature may not discriminate among competing first principles.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Canes-Wrone, Brandice, Tom S. Clark, and Jee-Kwang Park. 2012. <a href="/files/CanesWroneClarkParkJLEO2012.pdf">"Judicial Independence and Retention Elections."</a> <em>Journal of Law, Economics &amp; Organization</em> 28(2):211–234.</p>
+    <p class="pub-abstract">We argue that in the context of modern judicial campaigns, retention elections create pressure for judges to cater to public opinion on salient issues, and that this pressure can be as great as in contestable elections. Comparing decisions across systems with retention, partisan, and nonpartisan elections using abortion cases decided by state supreme courts from 1980–2006, we find strong evidence for the arguments.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S., and Benjamin E. Lauderdale. 2010. <a href="/files/ClarkLauderdaleAJPS2010.pdf">"Locating Supreme Court Opinions in 'Doctrine Space.'"</a> <em>American Journal of Political Science</em> 54(4):871–890.</p>
+    <p class="pub-abstract">We develop an original scaling model to estimate opinion locations and justice ideal points along a common dimension using citations between opinions as data. Applying a proximity citation model to freedom of religion opinions from the Warren, Burger, and Rehnquist Courts, we find striking empirical support for theoretical models predicting the majority opinion will fall at the ideal point of the median member of the majority coalition.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S., and Aaron B. Strauss. 2010. <a href="/files/ClarkStraussJTP2010.pdf">"The Implications of High Court Docket Control for Resource Allocation and Legal Efficiency."</a> <em>Journal of Theoretical Politics</em> 22(2):247–268.</p>
+    <p class="pub-abstract">We develop a formal model of high court resource allocation under two institutional designs: mandatory jurisdiction and complete docket control. We analyze the model to identify the optimal allocation of resources across cases and consider conditions under which the various institutional rules increase or decrease the legal efficiency of the judicial system, informing policy debates among judicial reformers and scholars.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S. 2009. <a href="/files/ClarkAJPS2009.pdf">"The Separation of Powers, Court-curbing, and Judicial Legitimacy."</a> <em>American Journal of Political Science</em> 53(4):971–989.</p>
+    <p class="pub-abstract">Building on evidence from interviews with Supreme Court justices and former law clerks, I develop a formal model of judicial-congressional relations incorporating judicial preferences for institutional legitimacy and the role of public opinion in congressional hostility. Using an original dataset of all Court-curbing legislation proposed from 1877–2006, I find that public discontent with the Court, mediated through congressional hostility, creates incentives for judicial self-restraint.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Caldarone, Richard P., Brandice Canes-Wrone, and Tom S. Clark. 2009. "Partisan Labels and Democratic Accountability: An Analysis of State Supreme Court Abortion Decisions." <em>Journal of Politics</em> 71(2):560–573.</p>
+    <p class="pub-abstract">We argue that on salient issues, judges in nonpartisan systems have greater incentives than those in partisan systems to issue popular decisions, given developments in judicial campaigns. Using state supreme court abortion decisions from 1980–2006, and controlling for a variety of factors while using the US Senate as a comparative tool, we find strong support for the hypothesis.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S. 2009. <a href="https://academic.oup.com/jleo/article/25/1/55/885570">"A Principal-Agent Theory of En Banc Review."</a> <em>Journal of Law, Economics &amp; Organization</em> 25(1):55–79.</p>
+    <p class="pub-abstract">I develop and test hypotheses about the determinants of en banc review, arguing that the ideological relationship between a three-judge panel, the full circuit, and the Supreme Court should all interact with the ideological orientation of the panel's decision. Using original data on all en banc rehearings from 1986–1996, the analysis highlights strategic interaction in the en banc review process and demonstrates the incentives created by the multiple levels of the federal judiciary.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S. 2009. <a href="http://journals.sagepub.com/doi/abs/10.1177/1065912908314652">"Measuring Ideological Polarization on the U.S. Supreme Court."</a> <em>Political Research Quarterly</em> 62(1):146–157.</p>
+    <p class="pub-abstract">I apply a method for measuring polarization to ideological heterogeneity on the Supreme Court, developing a "polarization statistic," and compare it with other common polarization measures. I then demonstrate that more polarized Courts produce more dissenting opinions, arguing that the study of polarization and its implications for judicial outputs is an important area warranting further investigation.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Canes-Wrone, Brandice, and Tom S. Clark. 2009. <a href="/files/CanesWroneClarkWLR2009-8hws.pdf">"Judicial Independence and Nonpartisan Elections."</a> <em>Wisconsin Law Review</em> 2009(1):21–65.</p>
+    <p class="pub-abstract">We challenge the assumption that nonpartisan elections lead to greater judicial independence, arguing that in the context of modern judicial elections where interest groups advertise judges' positions, nonpartisan elections can give rise to greater political pressure than partisan elections. Examining votes in states with partisan and nonpartisan elections on abortion cases from 1980–2006, we find that judges in nonpartisan systems appear more influenced by public opinion.</p>
+  </li>
+
+  <li>
+    <p class="pub-citation">Clark, Tom S. 2006. <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1740-1461.2006.00074.x/full">"Judicial Decision-making During Wartime."</a> <em>Journal of Empirical Legal Studies</em> 3(3):397–419.</p>
+    <p class="pub-abstract">Analyzing Courts of Appeals cases over a 100-year period, this paper demonstrates that while judicial preferences undergo a fundamental shift with respect to criminal cases during wartime, there is no evidence of heightened deference to the executive. These findings suggest that war has a preference-altering effect on judicial treatment of criminal defendants, while concerns about judicial deference to the executive during wartime may be overstated.</p>
+  </li>
+
+</ul>
