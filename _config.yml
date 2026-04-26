@@ -28,7 +28,7 @@ author:
   bio              : "Professor of Political Science, Stanford University. Editor, Journal of Law & Courts."
   location         : "Stanford, CA"
   employer         : "Stanford University"
-  uri              : "https://www.tomclarkphd.com"
+  uri              : # URL
   email            : "tsclark@stanford.edu"
 
   # Academic websites
