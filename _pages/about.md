@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Professor of Political Science and Senior Fellow (by courtesy) at the Hoover Institution at Stanford University. My research focus on the political economy of two related areas: **judicial politics** and **policing and public safety**.
+I am a Professor of Political Science and, by courtesy Professor of Political Economy at the Graduate School of Business and a Senior Fellow at the Hoover Institution at Stanford University. My research focus on the political economy of two related areas: **judicial politics** and **policing and public safety**.
 
 On the judicial politics side, I study judicial independence, the separation of powers, decision-making at the U.S. Supreme Court, judicial elections, and the political economy of courts more broadly. My work on policing focuses on officer-involved shootings, racial bias in police use of force, the effects of military equipment transfers to local police departments, and how public information shapes policing behavior.
 
