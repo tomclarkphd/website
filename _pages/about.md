@@ -13,4 +13,4 @@ On the judicial politics side, I study judicial independence, the separation of 
 
 My current research examines agenda setting and lawmaking in appellate courts and prosecutorial discretion in American cities.  I am also currently Editor of [*The Journal of Law & Courts*](https://www.cambridge.org/core/journals/journal-of-law-and-courts), the flagship journal of the Law & Courts section of the American Political Science Association. 
 
-Before joining Stanford in 2025, I was the David and Mary Winton Green Professor of Political Sciencer at the faculty at the University of Chicago and before that the Charles Howard Candler Professor of Political Science at Emory University.
+Before joining Stanford in 2025, I was the David and Mary Winton Green Professor of Political Science at the faculty at the University of Chicago and before that the Charles Howard Candler Professor of Political Science at Emory University.
